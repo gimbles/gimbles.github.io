@@ -1,8 +1,8 @@
 [404_message]
-other = "Hey! You look a little lost. This page doesn't exist (or may be private)."
+other = "Yer lost mate, nothing here."
 
 [404_back]
-other = "↳ Let's get you home."
+other = "↳ Get back to motherland"
 
 [all_posts]
 other = "All {{.Title}}"
@@ -62,4 +62,4 @@ other = "Search for something..."
 other = "Table of Contents"
 
 [copyright]
-other = "Made by {{ .name }} using <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>, © {{ .year }}"
+other = "Made with <3 and <a href=\"https://github.com/jackyzha0/quartz\">Quartz</a>!"
