@@ -1,3 +1,8 @@
+---
+title: "The world's Best* operator precedence-aware parsing algorithm"
+date: 2023-04-15
+---
+
 We here at Gimbling Science take cursedness very seriously. I’m Gim! I own the place. This is my first article on this (unchanged until now) website as part of The Writing Gaggle in the Rust Community Discord Server. I’m generally pretty excited.
 
 > Cat: And so am I!
@@ -77,7 +82,7 @@ We take in a parameter, containing the original source code. Strings in .NET lan
 
 We get our current character by indexing the span with the current index, and we iterate by recursing with the index bumped up. This is _fast!_ As fast as traditional looping. Although, this is talks for later.
 
-If the current index is same as the length of the original source, we can conclude that we have reached the end of the source and we can stop lexing further. Now it’s pretty simple, our grammar isn’t really that complex. In a real compiler, I would use a lexer generator like [Logos](https://web.archive.org/web/20230517120658/https://lib.rs/logos) instead however.
+If the current index is same as the length of the original source, we can conclude that we have reached the end of the source and we can stop lexing further. Now it’s pretty simple, our grammar isn’t really that complex. In a real compiler, I would use a lexer generator like [Logos](https://lib.rs/logos) instead however.
 
 We match over the character, ignoring the whitespace entirely and just bumping the index. Then matching over the different operators and…
 
