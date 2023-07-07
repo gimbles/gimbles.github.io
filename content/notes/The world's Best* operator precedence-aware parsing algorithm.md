@@ -23,7 +23,7 @@ For the sake of simplicity, this article will only focus on basic _math_. Emphas
 
 Shhh.
 
-# # What’s the fuzz, Gim?
+# What’s the fuzz, Gim?
 
 Now we all know the good ol’ Pratt Parsing. Some people even prefer recursive descent. But nothing is as cursed as _The FORTRAN way._
 
