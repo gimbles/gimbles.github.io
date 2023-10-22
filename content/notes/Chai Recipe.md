@@ -1,3 +1,7 @@
+---
+title: "Chai Recipe"
+date: 2023-10-22
+---
 A recipe from your local Gim instance. 
 
 # Ingredients
