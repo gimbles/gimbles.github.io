@@ -1,4 +1,4 @@
-baseURL = "https://gimbles.github.io/"
+baseURL = "https://gimbling-away.github.io/"
 languageCode = "en-us"
 relativeURLs = true
 disablePathToLower = true
